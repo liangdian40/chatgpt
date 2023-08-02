@@ -1,0 +1,75 @@
+{
+  "open_ai_api_key": "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",
+  "model": "gpt-4",
+  "proxy": "",
+  "hot_reload": false,
+  "single_chat_prefix": [
+    "liangdian40",
+    "@liangdian40"
+  ],
+  "single_chat_reply_prefix": "[liangdian40] ",
+  "group_chat_prefix": [
+    "@liangdian40"
+  ],
+  "group_name_white_list": [
+    "ALL_GROUP",
+  ],
+  "group_chat_in_one_session": [
+    "ALL_GROUP"
+  ],
+  "voice_recognition": {
+  "enabled": true,
+  "provider": "google",
+  "api_key": "AIzaSyAqqujCA2PnEBzoUxFoJxpPjMIRLCaHF4o"
+  },
+  "image_generation": {
+  "enabled": true,
+  "model": "dell-e",
+  "image_size": 512
+  },
+  "image_manipulation": {
+  "enabled": true,
+  "model": "replicate"
+  },
+  "plugins": {
+    "role_switch": {
+      "enabled": true,
+      "roles": ["admin", "user"]
+  },
+  "text_adventure": {
+  "enabled": true,
+  "game_file": "adventure.json"
+  },
+  "sensitive_word_filter": {
+  "enabled": true,
+  "filter_file": "sensitive_words.txt"
+  },
+  "chat_history_summary": {
+  "enabled": true,
+  "summary_length": 5
+  }
+  },
+  "tool_hub": {
+  "enabled": true,
+  "search_engine": "google",
+  "math_engine": "wolframalpha",
+  "weather_engine": "openweathermap",
+  "news_engine": "newsapi"
+}
+}
+  "image_create_prefix": [
+    "画",
+    "看",
+    "找"
+  ],
+  "speech_recognition": false,
+  "group_speech_recognition": false,
+  "voice_reply_voice": false,
+  "conversation_max_tokens": 1000,
+  "expires_in_seconds": 3600,
+  "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
+  "subscribe_msg": "感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
+  "use_linkai": false,
+  "linkai_api_key": "Link_WixyATYJrQIAzmqBG7OYOmUCynD5haKjcEA99JNK6F",
+  "linkai_app_code": "DGI2YJ9K"
+}
